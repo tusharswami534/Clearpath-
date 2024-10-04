@@ -7,7 +7,7 @@
             const accordionItems = document.querySelectorAll('.accordionItem');
 
             accordionItems.forEach(item => {
-                const content = item.querySelector('.accordionInfo');
+                const content = item.querySelector('.accordion-text');
                 const arrow = item.querySelector('img');
 
                 if (item === activeItem) {
