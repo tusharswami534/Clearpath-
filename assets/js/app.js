@@ -1,10 +1,10 @@
-   document.querySelectorAll('.accordionItem').forEach(item => {
+   document.querySelectorAll('.accordion-item').forEach(item => {
             const accBtn = item.querySelector('.accordion-btn');
             accBtn.addEventListener('click', () => toggleAccordion(item));
         });
 
         function toggleAccordion(activeItem) {
-            const accordionItems = document.querySelectorAll('.accordionItem');
+            const accordionItems = document.querySelectorAll('.accordion-item');
 
             accordionItems.forEach(item => {
                 const content = item.querySelector('.accordion-text');
