@@ -19,9 +19,9 @@
 .bg-webservs{
     background-image: url('../images/webp/webservs-bg-image.webp');
 }
-.accordionItem.active  {
+.accordion-item.active  {
     background: #F3F5F6;
 }
-.accordionItem.active .accordion-btn  {
+.accordion-item.active .accordion-btn  {
     background: #F3F5F6;
 }
